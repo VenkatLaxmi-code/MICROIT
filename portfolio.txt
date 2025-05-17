@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOTTAM VENKATLAXMI | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 15px 0;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00cec9;
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    #home {
+      background: linear-gradient(to right, #2c3e50, #3498db);
+    }
+
+    #about {
+      background: linear-gradient(to right, #8e44ad, #c0392b);
+    }
+
+    #projects {
+      background: linear-gradient(to right, #16a085, #27ae60);
+    }
+
+    #skills {
+      background: linear-gradient(to right, #f39c12, #d35400);
+    }
+
+    #contact {
+      background: linear-gradient(to right, #1e272e, #485460);
+    }
+
+    #certificates {
+      background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    }
+
+    h1,
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .projects,
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      max-width: 800px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      min-width: 200px;
+    }
+
+    .certificate-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .certificate-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: #fff;
+      text-align: center;
+      color: #000;
+    }
+
+    .certificate-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    a.contact-link {
+      color: #00cec9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        margin: 0 10px;
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h1>GOTTAM VENKATLAXMI</h1>
+    <p>Web Developer | Designer | Tech Enthusiast</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a Web Developer with a strong focus on building responsive, accessible, and high-performance websites and
+      applications. I specialize in modern JavaScript frameworks like React and Vue, and have a solid foundation in both
+      front-end and back-end technologies. Whether working independently or as part of a team, I take pride in writing
+      clean, maintainable code and crafting seamless user experiences. Currently, I’m open to exciting opportunities
+      where I can contribute and grow.</p>
+  </section>
+
+  <section id="certificates">
+    <h2 style="color: #000;">Certificates</h2>
+    <div class="certificate-grid">
+      <div class="certificate-card">
+        <p><strong>AWS Certificate</strong></p>
+        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_4ZJgmYAxmk9K947Za_1745932819396_completion_certificate.pdf"
+          target="_blank"
+          style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #3498db; color: white; text-decoration: none; border-radius: 8px;">
+          View Certificate
+        </a>
+      </div>
+
+      <div class="certificate-card">
+        <p><strong>Deloitte Certificate</strong></p>
+        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_4ZJgmYAxmk9K947Za_1745405975036_completion_certificate.pdf"
+          target="_blank"
+          style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #3498db; color: white; text-decoration: none; border-radius: 8px;">
+          View Certificate
+        </a>
+      </div>
+
+      <div class="certificate-card">
+        <p><strong>Accenture Certificate</strong></p>
+        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ovyvuqqNRQKBjNxbj/3xnZEj9kfpoQKW885_ovyvuqqNRQKBjNxbj_4ZJgmYAxmk9K947Za_1745511630000_completion_certificate.pdf"
+          target="_blank"
+          style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #3498db; color: white; text-decoration: none; border-radius: 8px;">
+          View Certificate
+        </a>
+      </div>
+
+      <div class="certificate-card">
+        <p><strong>JP Morgan Certificate</strong></p>
+        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Sj7temL583QAYpHXD/bWqaecPDbYAwSDqJy_Sj7temL583QAYpHXD_4ZJgmYAxmk9K947Za_1745504122495_completion_certificate.pdf"
+          target="_blank"
+          style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #3498db; color: white; text-decoration: none; border-radius: 8px;">
+          View Certificate
+        </a>
+      </div>
+
+      <div class="certificate-card">
+        <p><strong>Codetantra Certificate</strong></p>
+        <a href="https://vjit.codetantra.com/cert/certificate.jsp?certId=CT399-tRBQiWs-cb3m" target="_blank"
+          style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #3498db; color: white; text-decoration: none; border-radius: 8px;">
+          View Certificate
+        </a>
+      </div>
+
+      <div class="certificate-card">
+        <p><strong>Cisco Certificate</strong></p>
+        <a href="https://www.netacad.com/certificates?issuanceId=8ff89384-d6e0-41ea-9756-86046e10b7d7" target="_blank"
+          style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #3498db; color: white; text-decoration: none; border-radius: 8px;">
+          View Certificate
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Calculator</h3>
+        <p>Basic calculator using HTML, CSS, JS.</p>
+      </div>
+      <div class="card">
+        <h3>Tip Calculator</h3>
+        <p>App to calculate tip and split bills easily.</p>
+      </div>
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>Live weather using OpenWeather API.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">HTML5 & CSS3</div>
+      <div class="card">JavaScript</div>
+      <div class="card">React.js</div>
+      <div class="card">Python</div>
+      <div class="card">Responsive Design</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:vyshnavi2603@gmail.com" class="contact-link">vyshnavi2603@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/VenkatLaxmi-code" class="contact-link"
+        target="_blank">https://github.com/VenkatLaxmi-code</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/venkat-laxmi" class="contact-link"
+        target="_blank">https://www.linkedin.com/in/venkat-laxmi</a></p>
+    <footer>© 2025 Gottam VenkatLaxmi</footer>
+  </section>
+
+</body>
+
+</html>
